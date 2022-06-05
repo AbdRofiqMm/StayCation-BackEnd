@@ -4,6 +4,7 @@ var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 const methodOverride = require("method-override");
+const session = require("express-session");
 // import mongoose
 const mongoose = require("mongoose");
 mongoose.connect("mongodb://localhost:27017/dbStayCation");
